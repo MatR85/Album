@@ -1,0 +1,79 @@
+/* CSS Stylesheet */
+
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+
+
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url(img/cover-3.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+
+  .jumbotron p {
+      color: white;
+      text-shadow: 0 0 10px rgba(0, 0, 20, 0.5);
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+    background: #262626;
+    padding: 2rem;
+    color: white;
+  }
+
+  .card-img-top {
+      height: 100%;
+      width: 100%;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+#myModal-1 h5,
+#myModal-2 h5,
+#myModal-3 h5,
+#myModal-4 h5,
+#myModal-5 h5,
+#myModal-6 h5,
+#myModal-7 h5,
+#myModal-8 h5,
+#myModal-9 h5,
+#myModal-10 h5,
+#myModal-11 h5,
+#myModal-12 h5,
+#myModal-13 h5,
+#myModal-14 h5,
+#myModal-15 h5 {
+    font-size: 1.75rem;
+    font-weight: bold;
+} 
